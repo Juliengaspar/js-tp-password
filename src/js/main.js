@@ -9,8 +9,7 @@
             clickShowPasseElements : document.querySelector('.showPass'),
             imputeTypeElements : document.getElementById('password'),
             init(){
-                this.enleverCLassElements.classList.toggle('no-js');
-                console.log(this.enleverCLassElements);
+                document.documentElement.classList.add("js-enabled");
                 //Écoutez le clic sur l'élément .showPass.
                 this.clickShowPasseElements.addEventListener('click', ()=>{
                     console.log('click');
