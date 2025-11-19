@@ -22,7 +22,7 @@ buttonElement.addEventListener('click', (evt) => {
 
  */
 (
-    function () {
+     ()=> {
         const app = {
 
             //propreiter et des methodes
